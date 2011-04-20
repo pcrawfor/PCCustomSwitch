@@ -14,8 +14,7 @@ Initialize a Client:
   [customSwitch setOn:YES];
   
 Implement the PCCustomSwitchDelegate:
-  - (void) valueChanged:(BOOL)value {
-    DLog(@"value changed");
+  - (void) valueChanged:(BOOL)value {    
     [AppState setWriteToVideoLibrary:value];
   }
 

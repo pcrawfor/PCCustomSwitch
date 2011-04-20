@@ -17,10 +17,7 @@ Implement the PCCustomSwitchDelegate:
   - (void) valueChanged:(BOOL)value {
     DLog(@"value changed");
     [AppState setWriteToVideoLibrary:value];
-  }  
-
-Changing the colors on the switch:
-  
+  }
 
 == License
 

@@ -2,6 +2,9 @@
 
 A custom view implementation of UISwitch.  This view provides a custom implementation that behaves like the default implementation but allows you to customize the strings displayed on the switch.
 
+It is also possible to change the colors by modifying the colors in the class, they are generated using CAGradients which can be easily modified.
+
+
 == Working with the class
 
 Initialize a Client:

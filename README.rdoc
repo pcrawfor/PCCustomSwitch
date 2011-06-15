@@ -18,7 +18,7 @@ Initialize a Client:
   
 Implement the PCCustomSwitchDelegate:
   - (void) valueChanged:(BOOL)value {    
-    [AppState setWriteToVideoLibrary:value];
+    // Do something when the value changes
   }
 
 == License
